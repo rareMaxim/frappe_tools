@@ -1,0 +1,86 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-11-12 00:53:58.148962",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "doc_type",
+  "count",
+  "delete",
+  "column_break_kmao",
+  "force",
+  "delete_permanently",
+  "section_break_twxg",
+  "log"
+ ],
+ "fields": [
+  {
+   "fieldname": "doc_type",
+   "fieldtype": "Link",
+   "label": "Select document type",
+   "options": "DocType"
+  },
+  {
+   "fieldname": "count",
+   "fieldtype": "Int",
+   "label": "Count",
+   "read_only": 1
+  },
+  {
+   "fieldname": "delete",
+   "fieldtype": "Button",
+   "label": "Delete"
+  },
+  {
+   "fieldname": "column_break_kmao",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "description": "Allow even if document is linked. Warning: This may lead to data integrity errors",
+   "fieldname": "force",
+   "fieldtype": "Check",
+   "label": "Force"
+  },
+  {
+   "default": "0",
+   "description": "Do not create a Deleted Document for the document",
+   "fieldname": "delete_permanently",
+   "fieldtype": "Check",
+   "label": "Delete permanently"
+  },
+  {
+   "fieldname": "section_break_twxg",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "log",
+   "fieldtype": "Text",
+   "label": "Log "
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2023-11-12 02:53:22.517076",
+ "modified_by": "Administrator",
+ "module": "Frappe Tools",
+ "name": "FT Document Delete",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
