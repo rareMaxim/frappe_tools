@@ -1,0 +1,38 @@
+{
+ "app": "",
+ "charts": [],
+ "content": "[{\"id\":\"z1ynyUquhw\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Frappe Tools</span>\",\"col\":12}},{\"id\":\"b5SWBa_bWn\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"security.txt\",\"col\":3}}]",
+ "creation": "2024-09-11 21:49:43.830131",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "image-view",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Frappe Tools",
+ "links": [],
+ "modified": "2024-09-11 23:19:41.442187",
+ "modified_by": "Administrator",
+ "module": "Frappe Tools",
+ "name": "Frappe Tools",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 37.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "security.txt",
+   "link_to": "security_txt",
+   "type": "DocType"
+  }
+ ],
+ "title": "Frappe Tools"
+}

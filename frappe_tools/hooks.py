@@ -4,6 +4,13 @@ app_publisher = "Maxim S"
 app_description = "Frappe Tools"
 app_email = "maks4a@gmail.com"
 app_license = "mit"
+app_logo_url = "/assets/asc/img/asc_mel.svg"
+app_home = "/app/frappe-tools"
+
+
+website_route_rules = [
+    {"from_route": "/well-known/security.txt", "to_route": "security.txt"}
+]
 
 # Apps
 # ------------------
@@ -236,7 +243,7 @@ app_license = "mit"
 # ]
 
 # Automatically update python controller files with type annotations for this app.
-# export_python_type_annotations = True
+export_python_type_annotations = True
 
 # default_log_clearing_doctypes = {
 # 	"Logging DocType Name": 30  # days to retain logs
