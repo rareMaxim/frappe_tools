@@ -7,13 +7,16 @@
  "field_order": [
   "contact_information_section",
   "email",
+  "column_break_syzc",
   "contact_page",
+  "column_break_pyad",
   "phone",
   "other_information_section",
   "expires",
   "encryption",
   "acknowledgments",
   "preferred_languages",
+  "column_break_vpzf",
   "policy",
   "hiring",
   "csaf"
@@ -103,12 +106,24 @@
    "fieldtype": "Date",
    "label": "CSAF",
    "options": "URL"
+  },
+  {
+   "fieldname": "column_break_syzc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_pyad",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_vpzf",
+   "fieldtype": "Column Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "issingle": 1,
  "links": [],
- "modified": "2024-09-11 23:18:49.287017",
+ "modified": "2024-09-19 16:46:54.936047",
  "modified_by": "Administrator",
  "module": "FT Web",
  "name": "security_txt",
