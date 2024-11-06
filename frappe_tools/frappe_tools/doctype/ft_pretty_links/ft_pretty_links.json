@@ -1,0 +1,87 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "hash",
+ "creation": "2024-11-06 23:02:58.528300",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "general_column",
+  "doctype_ref",
+  "column_break_eybu",
+  "enabled",
+  "section_break_sacr",
+  "show_name_in_description",
+  "parse_title_for_links"
+ ],
+ "fields": [
+  {
+   "fieldname": "doctype_ref",
+   "fieldtype": "Link",
+   "label": "Doctype",
+   "options": "DocType"
+  },
+  {
+   "default": "0",
+   "fieldname": "enabled",
+   "fieldtype": "Check",
+   "label": "Enabled"
+  },
+  {
+   "fieldname": "section_break_sacr",
+   "fieldtype": "Section Break",
+   "label": "Settings"
+  },
+  {
+   "default": "1",
+   "fieldname": "show_name_in_description",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Show name in description"
+  },
+  {
+   "fieldname": "general_column",
+   "fieldtype": "Section Break",
+   "label": "General"
+  },
+  {
+   "fieldname": "column_break_eybu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "description": "(in development) Parse title if searchfield is link",
+   "fieldname": "parse_title_for_links",
+   "fieldtype": "Check",
+   "label": "Parse Title for links",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-11-07 00:14:27.685667",
+ "modified_by": "Administrator",
+ "module": "Frappe Tools",
+ "name": "FT Pretty Links",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "show_title_field_in_link": 1,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "doctype_ref"
+}
