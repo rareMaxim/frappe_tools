@@ -1,7 +1,7 @@
 {
- "app": "",
+ "app": "frappe_tools",
  "charts": [],
- "content": "[{\"id\":\"z1ynyUquhw\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Frappe Tools</span>\",\"col\":12}},{\"id\":\"b5SWBa_bWn\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"security.txt\",\"col\":3}},{\"id\":\"cyguICwFlb\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"humans.txt\",\"col\":3}}]",
+ "content": "[{\"id\":\"z1ynyUquhw\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Frappe Tools</span>\",\"col\":12}},{\"id\":\"b5SWBa_bWn\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"security.txt\",\"col\":3}},{\"id\":\"cyguICwFlb\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"humans.txt\",\"col\":3}},{\"id\":\"Wt9wDm7aeX\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"gDlFiID45i\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Document Import\",\"col\":3}},{\"id\":\"Ic__3GJ8is\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Document Export\",\"col\":3}}]",
  "creation": "2024-09-11 21:49:43.830131",
  "custom_blocks": [],
  "docstatus": 0,
@@ -14,7 +14,7 @@
  "is_hidden": 0,
  "label": "Frappe Tools",
  "links": [],
- "modified": "2024-09-19 17:01:43.706817",
+ "modified": "2024-11-16 02:24:08.554378",
  "modified_by": "Administrator",
  "module": "Frappe Tools",
  "name": "Frappe Tools",
@@ -36,10 +36,27 @@
   {
    "color": "Grey",
    "doc_view": "List",
+   "label": "Document Import",
+   "link_to": "FT Document Import",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Document Export",
+   "link_to": "FT Document Export",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
    "label": "humans.txt",
    "link_to": "Humans TXT",
    "type": "DocType"
   }
  ],
- "title": "Frappe Tools"
+ "title": "Frappe Tools",
+ "type": "Workspace"
 }
