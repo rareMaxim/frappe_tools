@@ -31,8 +31,9 @@ class FTPrettyLinks(Document):
 
 def check_pretty_enabled(doctype: str) -> bool:
     """Check if pretty links are enabled for a doctype."""
-    return (
-        frappe.db.count(
+    if frappe.db.exists("FT Pretty Links"):
+        return (
+            frappe.db.count(
             dt="FT Pretty Links", filters={"enabled": 1, "doctype_ref": doctype}
         )
         > 0
