@@ -1,0 +1,22 @@
+{
+ "app": "frappe_tools",
+ "bg_color": "gray",
+ "creation": "2026-02-19 23:16:54.436822",
+ "docstatus": 0,
+ "doctype": "Desktop Icon",
+ "hidden": 0,
+ "icon": "image-view",
+ "icon_type": "Link",
+ "idx": 0,
+ "label": "Frappe Tools",
+ "link_to": "Frappe Tools",
+ "link_type": "Workspace Sidebar",
+ "modified": "2026-02-20 12:23:39.181710",
+ "modified_by": "Administrator",
+ "name": "Frappe Tools",
+ "owner": "Administrator",
+ "restrict_removal": 0,
+ "roles": [],
+ "sidebar": "Frappe Tools",
+ "standard": 1
+}
