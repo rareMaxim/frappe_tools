@@ -12,17 +12,11 @@ website_route_rules = [
     {"from_route": "/well-known/security.txt", "to_route": "security.txt"},
     {"from_route": "/.well-known/security.txt", "to_route": "security.txt"},
 ]
-# Monkey patching
+# Overrides
 # ------------------
-# Imports specific to the patches
-import frappe.desk.search
-import frappe_tools.frappe_tools.doctype.ft_pretty_links.ft_pretty_links
-
-original_build_for_autosuggest = frappe.desk.search.build_for_autosuggest
-# Replace frappe function with custom function
-frappe.desk.search.build_for_autosuggest = (
-    frappe_tools.frappe_tools.doctype.ft_pretty_links.ft_pretty_links.build_for_autosuggest
-)
+override_whitelisted_methods = {
+    "frappe.desk.search.search_link": "frappe_tools.frappe_tools.doctype.ft_pretty_links.search.search_link"
+}
 
 
 # Apps

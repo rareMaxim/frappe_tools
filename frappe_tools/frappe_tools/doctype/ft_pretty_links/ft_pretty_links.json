@@ -12,6 +12,7 @@
   "enabled",
   "section_break_sacr",
   "show_name_in_description",
+  "resolve_search_links",
   "parse_title_for_links"
  ],
  "fields": [
@@ -40,6 +41,14 @@
    "label": "Show name in description"
   },
   {
+   "default": "1",
+   "description": "Resolve Link-type search fields to their titles in description",
+   "fieldname": "resolve_search_links",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Resolve search link titles"
+  },
+  {
    "fieldname": "general_column",
    "fieldtype": "Section Break",
    "label": "General"
@@ -50,16 +59,15 @@
   },
   {
    "default": "0",
-   "description": "(in development) Parse title if searchfield is link",
+   "description": "Resolve linked title if title_field is a Link field",
    "fieldname": "parse_title_for_links",
    "fieldtype": "Check",
-   "label": "Parse Title for links",
-   "read_only": 1
+   "label": "Parse Title for links"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-11-07 00:14:27.685667",
+ "modified": "2026-03-02 00:00:00.000000",
  "modified_by": "Administrator",
  "module": "Frappe Tools",
  "name": "FT Pretty Links",
