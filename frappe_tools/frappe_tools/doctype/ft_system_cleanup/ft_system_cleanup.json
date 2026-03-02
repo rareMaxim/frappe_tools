@@ -1,0 +1,80 @@
+{
+    "actions": [],
+    "allow_rename": 1,
+    "creation": "2026-02-27 11:00:00.000000",
+    "doctype": "DocType",
+    "editable_grid": 1,
+    "engine": "InnoDB",
+    "field_order": [
+        "last_cleanup",
+        "amended_from",
+        "sb_stats",
+        "logs_cleaned_size",
+        "cache_cleared_size",
+        "git_cleaned_size"
+    ],
+    "fields": [
+        {
+            "fieldname": "last_cleanup",
+            "fieldtype": "Datetime",
+            "label": "Last Cleanup",
+            "read_only": 1
+        },
+        {
+            "fieldname": "amended_from",
+            "fieldtype": "Link",
+            "label": "Amended From",
+            "no_copy": 1,
+            "options": "FT System Cleanup",
+            "print_hide": 1,
+            "read_only": 1
+        },
+        {
+            "fieldname": "sb_stats",
+            "fieldtype": "Section Break",
+            "label": "Statistics"
+        },
+        {
+            "fieldname": "logs_cleaned_size",
+            "fieldtype": "Data",
+            "label": "Logs Cleaned Size",
+            "read_only": 1
+        },
+        {
+            "fieldname": "cache_cleared_size",
+            "fieldtype": "Data",
+            "label": "Cache Cleared Size",
+            "read_only": 1
+        },
+        {
+            "fieldname": "git_cleaned_size",
+            "fieldtype": "Data",
+            "label": "Git Cleaned Size",
+            "read_only": 1
+        }
+    ],
+    "index_web_pages_for_search": 1,
+    "links": [],
+    "modified": "2026-02-27 11:00:00.000000",
+    "modified_by": "Administrator",
+    "module": "Frappe Tools",
+    "name": "FT System Cleanup",
+    "owner": "Administrator",
+    "permissions": [
+        {
+            "create": 1,
+            "delete": 1,
+            "email": 1,
+            "export": 1,
+            "print": 1,
+            "read": 1,
+            "report": 1,
+            "role": "System Manager",
+            "share": 1,
+            "write": 1
+        }
+    ],
+    "sort_field": "modified",
+    "sort_order": "DESC",
+    "states": []
+}
