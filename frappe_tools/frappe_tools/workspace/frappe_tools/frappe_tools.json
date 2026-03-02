@@ -1,7 +1,7 @@
 {
  "app": "frappe_tools",
  "charts": [],
- "content": "[{\"id\":\"z1ynyUquhw\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Frappe Tools</span>\",\"col\":12}},{\"id\":\"b5SWBa_bWn\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"security.txt\",\"col\":3}},{\"id\":\"cyguICwFlb\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"humans.txt\",\"col\":3}},{\"id\":\"Wt9wDm7aeX\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"gDlFiID45i\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Document Import\",\"col\":3}},{\"id\":\"Ic__3GJ8is\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Document Export\",\"col\":3}}]",
+ "content": "[{\"id\":\"z1ynyUquhw\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Frappe Tools</span>\",\"col\":12}},{\"id\":\"b5SWBa_bWn\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"security.txt\",\"col\":3}},{\"id\":\"cyguICwFlb\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"humans.txt\",\"col\":3}},{\"id\":\"Wt9wDm7aeX\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"gDlFiID45i\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Document Import\",\"col\":3}},{\"id\":\"Ic__3GJ8is\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Document Export\",\"col\":3}},{\"id\":\"a3kLpQmRtY\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Site Structure Map\",\"col\":3}}]",
  "creation": "2024-09-11 21:49:43.830131",
  "custom_blocks": [],
  "docstatus": 0,
@@ -55,6 +55,12 @@
    "label": "humans.txt",
    "link_to": "Humans TXT",
    "type": "DocType"
+  },
+  {
+   "color": "Blue",
+   "label": "Site Structure Map",
+   "link_to": "ld-site-map",
+   "type": "Page"
   }
  ],
  "title": "Frappe Tools",

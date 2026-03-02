@@ -1,0 +1,13 @@
+{
+	"doctype": "Page",
+	"module": "Frappe Tools",
+	"name": "ld-site-map",
+	"page_name": "ld-site-map",
+	"roles": [
+		{
+			"role": "System Manager"
+		}
+	],
+	"standard": "Yes",
+	"title": "Site Structure Map"
+}
